@@ -1,4 +1,4 @@
 class Routes {
-  static const onBoarding = '/onBoarding';
+  static const onBoarding = '/';
   static const login = '/login';
 }
