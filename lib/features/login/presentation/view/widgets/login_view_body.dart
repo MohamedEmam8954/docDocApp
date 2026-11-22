@@ -1,7 +1,12 @@
 import 'package:doctorapp/core/theme/app_styles.dart';
 import 'package:doctorapp/core/widgets/custom_text_form_field.dart';
 import 'package:doctorapp/core/widgets/cutom_button.dart';
+<<<<<<< HEAD
+import 'package:doctorapp/features/login/presentation/view/widgets/sign_up_button.dart';
+import 'package:doctorapp/features/login/presentation/view/widgets/terms_and_condition.dart';
+=======
 import 'package:flutter/gestures.dart';
+>>>>>>> 9b555ba24e72954cff90ea603ed60b21ca0b4c16
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 
@@ -79,6 +84,8 @@ class _LoginViewBodyState extends State<LoginViewBody> {
     );
   }
 }
+<<<<<<< HEAD
+=======
 
 class TermsAndCondition extends StatelessWidget {
   const TermsAndCondition({super.key});
@@ -134,3 +141,4 @@ class SignUpButtom extends StatelessWidget {
     );
   }
 }
+>>>>>>> 9b555ba24e72954cff90ea603ed60b21ca0b4c16
