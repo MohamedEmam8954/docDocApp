@@ -15,7 +15,7 @@ class CustomButton extends StatelessWidget {
         backgroundColor: AppColor.mainColor,
         shape: RoundedRectangleBorder(borderRadius: .circular(16.r)),
         tapTargetSize: .shrinkWrap,
-        minimumSize: Size(double.infinity, 52),
+        minimumSize: Size(double.infinity, 52.h),
       ),
       onPressed: () {
         context.pushNamed(Routes.login);
